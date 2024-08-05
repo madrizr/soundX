@@ -8,6 +8,22 @@
 body{
     background-image: linear-gradient(to top, #212121, #202021, #1e1f22, #1c1e23, #191d23);
 }
+.footer > div {
+    display: flex;
+    justify-content: center;
+}
+h6 > a {
+    text-decoration: none;
+    text-shadow: rgb(153, 44, 216) 1px 0 10px;
+    transition: all 0.3s;
+}
+
+h6 > a:hover {
+    text-decoration: none;
+    text-shadow: rgb(158, 92, 235) 1px 0 10px;
+    color: #e81cff;
+    transition: all 0.3s;
+}
 
 h1{
     margin: 20px 0;
