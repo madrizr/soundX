@@ -47,6 +47,19 @@
     border-color: #e81cff;
   }
   
+  /*Tablets*/
+@media (max-width: 866px) {
+  .form-container{
+      width: 400px;
+  }
+}
+
+/*Mobile*/
+@media (max-width: 480px) {
+  .form-container{
+      width: 300px;
+  }
+}
   
   
   
