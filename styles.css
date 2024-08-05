@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+}
+body{
+    background-image: linear-gradient(to top, #212121, #202021, #1e1f22, #1c1e23, #191d23);
+}
+
+h1{
+    margin: 20px 0;
+}
+.fa-opera{
+    color: red;
+}
+.fa-safari{
+    color: rgb(27, 142, 187);
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(#212121, #212121)
+}
+.buttons i {
+    background: linear-gradient(#212121, #212121)
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+.rec {
+    cursor: pointer;
+    color: red;
+    transition: all 0.3s;
+}
+.rec:hover {
+    color: rgb(107, 6, 6);
+    transition: all .5s;
+}
+
+.fa-play{
+    color: rgb(34, 211, 18);
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+.fa-play:hover{
+    color: rgb(15, 92, 9);
+    transition: all 0.3s;
+}
+
+.fa-stop{
+    color: rgb(25, 85, 214);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.fa-stop:hover{
+    color: rgb(17, 48, 114);
+    transition: all 0.3s;
+}
